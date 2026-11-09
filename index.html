@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Login_section {
+      background-color: white;
+      width: 300px;
+      padding: 20px;
+      border: 2px solid #dbd6d6;
+      border-radius: 10px;
+      color: #353434;
+    }
+
+    .Login_section form label {
+      margin-top: 10px;
+    }
+
+    .Login_section form p {
+      margin-bottom: 10px;
+    }
+
+    .Login_section form input[type="submit"] {
+      margin-top: 25px;
+      margin-bottom: 4px;
+      background-color: #2e8cff;
+      outline: none;
+      border: 2px solid  #2e8cff;
+      padding: 12px 68px;
+      font-size: 17px;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .Login_section form input[type="email"]{
+        padding: 6px ;
+        margin-top: 3px;
+    } 
+    .Login_section form input[type="password"]{
+        padding: 6px ;
+        margin-top: 3px;
+    } 
+  </style>
+</head>
+
+<body>
+  <div class="Login_section">
+    <form>
+      <h1>Log in</h1>
+      <p>to start learning</p>
+      <label for="email"> Enter your email:<br>
+        <input type="email" name="email">
+      </label> <br><br>
+      <label for="password"> Password:<br>
+        <input type="password" name="password">
+      </label>
+      <p>Forgot password?</p>
+      <input type="submit" value="Log in">
+      <p>Dont have an account? Sign up now!</p>
+
+    </form>
+  </div>
+</body>
+
+</html>
